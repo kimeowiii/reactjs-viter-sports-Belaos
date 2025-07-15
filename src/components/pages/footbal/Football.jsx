@@ -20,9 +20,7 @@ const Football = () => {
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <CardStory
-                image={
-                  "https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                }
+                image={"/imagess/football-1.webp"}
                 alt={"Football match"}
                 title={" Champions League Final Preview"}
                 description={
@@ -33,9 +31,7 @@ const Football = () => {
               />
 
               <CardStory
-                image={
-                  "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                }
+                image={"/imagess/football-2.webp"}
                 alt={"Football transfer"}
                 title={"Summer Transfer Window Heats Up"}
                 description={

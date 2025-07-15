@@ -22,9 +22,7 @@ const Basketball = () => {
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <CardStory
-                image={
-                  "https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                }
+                image={"/imagess/basketball-1.webp"}
                 alt={"NBA game"}
                 title={" NBA Finals: Game 7 Preview"}
                 description={
@@ -35,9 +33,7 @@ const Basketball = () => {
               />
 
               <CardStory
-                image={
-                  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                }
+                image={"/imagess/basketball-2.webp"}
                 alt={"Basketball player"}
                 title={"Rising Stars of the Season"}
                 description={
