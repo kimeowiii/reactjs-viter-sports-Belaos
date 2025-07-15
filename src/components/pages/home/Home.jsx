@@ -12,11 +12,35 @@ const Home = () => {
         <Header />
         <main className="flex-grow">
           <div className="container mx-auto p-4">
-            <Banner background={"bg-gradient-to-r from-blue-500 to-blue-700"} title={" Welcome to SportsWorld"} description={"Your ultimate destination for sports news and updates"}/>
+            <Banner
+              background={"bg-gradient-to-r from-blue-500 to-blue-700"}
+              title={" Welcome to SportsWorld"}
+              description={
+                "Your ultimate destination for sports news and updates"
+              }
+            />
 
             <div className="grid md:grid-cols-2 gap-6">
-                <CardSportNews title={"Featured Football News"} description={" The latest transfer rumors and match highlights from the world of football."} link={"/football"} textColor={"text-blue-700"} bgColor={"bg-blue-600"} hoverColor={"hover:bg-blue-700"}/>
-                <CardSportNews title={"Basketball Updates"} description={"Get the latest scores, stats, and news from the NBA and international leagues."} link={"/basketball"} textColor={"text-orange-600"} bgColor={"bg-orange-600"} hoverColor={"hover:bg-orange-700"}/>
+              <CardSportNews
+                title={"Featured Football News"}
+                description={
+                  " The latest transfer rumors and match highlights from the world of football."
+                }
+                link={"/football"}
+                textColor={"text-blue-700"}
+                bgColor={"bg-blue-600"}
+                hoverColor={"hover:bg-blue-700"}
+              />
+              <CardSportNews
+                title={"Basketball Updates"}
+                description={
+                  "Get the latest scores, stats, and news from the NBA and international leagues."
+                }
+                link={"/basketball"}
+                textColor={"text-orange-600"}
+                bgColor={"bg-orange-600"}
+                hoverColor={"hover:bg-orange-700"}
+              />
             </div>
 
             <div className="mt-8 bg-gray-100 p-6 rounded-lg">
